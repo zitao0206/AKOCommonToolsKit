@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03152983515FDE8E56F3E4BF3D4B2768 /* AKOCommonToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704016661301AFD4B4AE58A3729D2564 /* AKOCommonToolsKit-dummy.m */; };
+		1C70388CC22B0509FFFD35992416802D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E5A17E8A38847DFD1CE64FEB4FF5515 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E41ED1A9DAB77406B89FB11F5D499B /* ReplaceMe.m */; };
+		7856C83815BAC06E4A752353D9CE90F3 /* AKOCommonToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C70879FA58238D63DC3E4E0A92712216 /* AKOCommonToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E0BC2D72FF99EC3EC6F15A4F54E5D1 /* Pods-AKOCommonToolsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */; };
+		8FF9C31E5F4EE19894CD7482E5B2273E /* Pods-AKOCommonToolsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */; };
+		B3B97DB9EDEEFB87D10E1051CC11EE44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B976EAA421DEE00800FD3DD1BD5EA8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0989692455B95C71082EE62641CC16A /* Pods-AKOCommonToolsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6AF067EA3540FD10DF36B04FF008FA /* Pods-AKOCommonToolsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E969691BBC66A18DE37A21631FD6D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF832F384E15469DFE1F9F7E5152A7D3;
+			remoteInfo = AKOCommonToolsKit;
+		};
+		DB7B5B15B1A73BA938CC4CC1FE4296E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEDAD2E1A1C18AB298ABD61975A3C99;
+			remoteInfo = "Pods-AKOCommonToolsKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EE90C814D93EB1DFC465E8A4DCFC9F /* AKOCommonToolsKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKOCommonToolsKit; path = AKOCommonToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1877E527C0167833D9662472C96B8F /* Pods-AKOCommonToolsKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKOCommonToolsKit_Example"; path = Pods_AKOCommonToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKOCommonToolsKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKOCommonToolsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F3BD15C874C8BB9F048F12EE84D2696 /* Pods-AKOCommonToolsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKOCommonToolsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22E033EB008F49D46A9D15A781232590 /* Pods-AKOCommonToolsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DF87C7F9495526AEF6F83B60640AA6B /* AKOCommonToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKOCommonToolsKit-Info.plist"; sourceTree = "<group>"; };
+		492FC733AE1498B817DBDEA3614447E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4F0453256152CE43056FF225FD6B96F5 /* Pods-AKOCommonToolsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKOCommonToolsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		5092E06CC5738A1C9815E86BDCF6BD12 /* Pods-AKOCommonToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		533DD2BACE405F590070FE2ED9286AD4 /* Pods-AKOCommonToolsKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		554E1B3823FD4FFB6915A8CF3005EA60 /* Pods-AKOCommonToolsKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Example-Info.plist"; sourceTree = "<group>"; };
+		65E41ED1A9DAB77406B89FB11F5D499B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AKOCommonToolsKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		66A75E77554599815A759C9E534FD0D6 /* Pods-AKOCommonToolsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKOCommonToolsKit_Example.modulemap"; sourceTree = "<group>"; };
+		6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKOCommonToolsKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6E236E4F001EC4A584655AC430CADD4D /* AKOCommonToolsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKOCommonToolsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKOCommonToolsKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		704016661301AFD4B4AE58A3729D2564 /* AKOCommonToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKOCommonToolsKit-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		750AC6D51841F1828567FC7A57218428 /* AKOCommonToolsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.debug.xcconfig; sourceTree = "<group>"; };
+		8F328B4140CA4467AA3220CFA5611CD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9453BCBA108BEF6ED781173AE3D81A17 /* Pods-AKOCommonToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A020E074BE01115F507713EA9F9764EB /* Pods-AKOCommonToolsKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKOCommonToolsKit_Tests"; path = Pods_AKOCommonToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2AE61384B147ECCCDC3E0BBE629B30 /* Pods-AKOCommonToolsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKOCommonToolsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B656DE883DF783545729D3A94436A46F /* Pods-AKOCommonToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C70879FA58238D63DC3E4E0A92712216 /* AKOCommonToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-umbrella.h"; sourceTree = "<group>"; };
+		D734E1B929ED715B7C6383A685F1588E /* Pods-AKOCommonToolsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E045487FCD8C74F2CC5883972D07F9E6 /* AKOCommonToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKOCommonToolsKit.modulemap; sourceTree = "<group>"; };
+		E22FFA68C646BCE97A5FDB0823797F46 /* AKOCommonToolsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.release.xcconfig; sourceTree = "<group>"; };
+		E562EB3FDA25F8C5E8999832FE267BCA /* Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB8A0905FB08690D12143FD8501E1163 /* Pods-AKOCommonToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F396FA75491B12E79985BBDC509BC2D8 /* AKOCommonToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1DA3C4E4D4C27BE926843C16A1D010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C70388CC22B0509FFFD35992416802D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94D7FEEC695277E6B811ADCA18FEA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B97DB9EDEEFB87D10E1051CC11EE44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CA4658CA78F4311DEDFC83A821F9E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B976EAA421DEE00800FD3DD1BD5EA8EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31ADCC7469D68F51B14AC176B5D9138C /* Pods-AKOCommonToolsKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				66A75E77554599815A759C9E534FD0D6 /* Pods-AKOCommonToolsKit_Example.modulemap */,
+				1F3BD15C874C8BB9F048F12EE84D2696 /* Pods-AKOCommonToolsKit_Example-acknowledgements.markdown */,
+				22E033EB008F49D46A9D15A781232590 /* Pods-AKOCommonToolsKit_Example-acknowledgements.plist */,
+				6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */,
+				AC2AE61384B147ECCCDC3E0BBE629B30 /* Pods-AKOCommonToolsKit_Example-frameworks.sh */,
+				554E1B3823FD4FFB6915A8CF3005EA60 /* Pods-AKOCommonToolsKit_Example-Info.plist */,
+				0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */,
+				EB8A0905FB08690D12143FD8501E1163 /* Pods-AKOCommonToolsKit_Example.debug.xcconfig */,
+				5092E06CC5738A1C9815E86BDCF6BD12 /* Pods-AKOCommonToolsKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AKOCommonToolsKit_Example";
+			path = "Target Support Files/Pods-AKOCommonToolsKit_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C3505A7CB49548EBFD0A5B5FE8457F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E045487FCD8C74F2CC5883972D07F9E6 /* AKOCommonToolsKit.modulemap */,
+				704016661301AFD4B4AE58A3729D2564 /* AKOCommonToolsKit-dummy.m */,
+				2DF87C7F9495526AEF6F83B60640AA6B /* AKOCommonToolsKit-Info.plist */,
+				F396FA75491B12E79985BBDC509BC2D8 /* AKOCommonToolsKit-prefix.pch */,
+				C70879FA58238D63DC3E4E0A92712216 /* AKOCommonToolsKit-umbrella.h */,
+				750AC6D51841F1828567FC7A57218428 /* AKOCommonToolsKit.debug.xcconfig */,
+				E22FFA68C646BCE97A5FDB0823797F46 /* AKOCommonToolsKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AKOCommonToolsKit";
+			sourceTree = "<group>";
+		};
+		A31D251E088368EBEF97429F224489BB /* AKOCommonToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				65E41ED1A9DAB77406B89FB11F5D499B /* ReplaceMe.m */,
+				F411816954115BD950970D03C72F96D1 /* Pod */,
+				7C3505A7CB49548EBFD0A5B5FE8457F9 /* Support Files */,
+			);
+			name = AKOCommonToolsKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A34C25FC8D4192CC9B72F5C66D995AFB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31ADCC7469D68F51B14AC176B5D9138C /* Pods-AKOCommonToolsKit_Example */,
+				CE6E40DC3A8F722802EEF3B08831534F /* Pods-AKOCommonToolsKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B332B62EEC09E64E5541273611E8F676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05EE90C814D93EB1DFC465E8A4DCFC9F /* AKOCommonToolsKit */,
+				0C1877E527C0167833D9662472C96B8F /* Pods-AKOCommonToolsKit_Example */,
+				A020E074BE01115F507713EA9F9764EB /* Pods-AKOCommonToolsKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6E40DC3A8F722802EEF3B08831534F /* Pods-AKOCommonToolsKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F0453256152CE43056FF225FD6B96F5 /* Pods-AKOCommonToolsKit_Tests.modulemap */,
+				E562EB3FDA25F8C5E8999832FE267BCA /* Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown */,
+				D734E1B929ED715B7C6383A685F1588E /* Pods-AKOCommonToolsKit_Tests-acknowledgements.plist */,
+				6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */,
+				533DD2BACE405F590070FE2ED9286AD4 /* Pods-AKOCommonToolsKit_Tests-Info.plist */,
+				1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */,
+				B656DE883DF783545729D3A94436A46F /* Pods-AKOCommonToolsKit_Tests.debug.xcconfig */,
+				9453BCBA108BEF6ED781173AE3D81A17 /* Pods-AKOCommonToolsKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-AKOCommonToolsKit_Tests";
+			path = "Target Support Files/Pods-AKOCommonToolsKit_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D1963BAC590C147D25C83BE504412303 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B332B62EEC09E64E5541273611E8F676 /* Products */,
+				A34C25FC8D4192CC9B72F5C66D995AFB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1963BAC590C147D25C83BE504412303 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A31D251E088368EBEF97429F224489BB /* AKOCommonToolsKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F411816954115BD950970D03C72F96D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6E236E4F001EC4A584655AC430CADD4D /* AKOCommonToolsKit.podspec */,
+				8F328B4140CA4467AA3220CFA5611CD3 /* LICENSE */,
+				492FC733AE1498B817DBDEA3614447E2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		378C95DB997C5D28ECE21FD3B8427C8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7856C83815BAC06E4A752353D9CE90F3 /* AKOCommonToolsKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C5C365DB23634834628A9378EE4615 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0989692455B95C71082EE62641CC16A /* Pods-AKOCommonToolsKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACE64C88AA825E42D92FB397CAACF5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6AF067EA3540FD10DF36B04FF008FA /* Pods-AKOCommonToolsKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7CEDAD2E1A1C18AB298ABD61975A3C99 /* Pods-AKOCommonToolsKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517D11C20A4F63B3381B28E5C2FEB491 /* Build configuration list for PBXNativeTarget "Pods-AKOCommonToolsKit_Example" */;
+			buildPhases = (
+				73C5C365DB23634834628A9378EE4615 /* Headers */,
+				17A86156FAE09090159BD563A6919F0F /* Sources */,
+				1F1DA3C4E4D4C27BE926843C16A1D010 /* Frameworks */,
+				3C5B71CF103969FFD9980F5E55F9B247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3927BE96161929A27196C0EE4F5177C /* PBXTargetDependency */,
+			);
+			name = "Pods-AKOCommonToolsKit_Example";
+			productName = Pods_AKOCommonToolsKit_Example;
+			productReference = 0C1877E527C0167833D9662472C96B8F /* Pods-AKOCommonToolsKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9BA8DBD5A0F780EDB9D946E6733A3A9 /* Pods-AKOCommonToolsKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D602A6D5A9575E5510D2D2AF4A271EB3 /* Build configuration list for PBXNativeTarget "Pods-AKOCommonToolsKit_Tests" */;
+			buildPhases = (
+				7ACE64C88AA825E42D92FB397CAACF5B /* Headers */,
+				F2A4A64190C5853B04FDD6309D538426 /* Sources */,
+				F7CA4658CA78F4311DEDFC83A821F9E1 /* Frameworks */,
+				07117E43F7BF00C33928C200D968904B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7F9759C8F9CB97B8A77C42A0C0BDFC /* PBXTargetDependency */,
+			);
+			name = "Pods-AKOCommonToolsKit_Tests";
+			productName = Pods_AKOCommonToolsKit_Tests;
+			productReference = A020E074BE01115F507713EA9F9764EB /* Pods-AKOCommonToolsKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF832F384E15469DFE1F9F7E5152A7D3 /* AKOCommonToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146B252D682E3542ED0E9714FB0CE458 /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */;
+			buildPhases = (
+				378C95DB997C5D28ECE21FD3B8427C8B /* Headers */,
+				E333B93D0CCD99E593040390134A2569 /* Sources */,
+				C94D7FEEC695277E6B811ADCA18FEA3D /* Frameworks */,
+				00D3018F67418D113F16B1DCAAA6ED1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKOCommonToolsKit;
+			productName = AKOCommonToolsKit;
+			productReference = 05EE90C814D93EB1DFC465E8A4DCFC9F /* AKOCommonToolsKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B332B62EEC09E64E5541273611E8F676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF832F384E15469DFE1F9F7E5152A7D3 /* AKOCommonToolsKit */,
+				7CEDAD2E1A1C18AB298ABD61975A3C99 /* Pods-AKOCommonToolsKit_Example */,
+				B9BA8DBD5A0F780EDB9D946E6733A3A9 /* Pods-AKOCommonToolsKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00D3018F67418D113F16B1DCAAA6ED1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07117E43F7BF00C33928C200D968904B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5B71CF103969FFD9980F5E55F9B247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A86156FAE09090159BD563A6919F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF9C31E5F4EE19894CD7482E5B2273E /* Pods-AKOCommonToolsKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E333B93D0CCD99E593040390134A2569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03152983515FDE8E56F3E4BF3D4B2768 /* AKOCommonToolsKit-dummy.m in Sources */,
+				5E5A17E8A38847DFD1CE64FEB4FF5515 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A4A64190C5853B04FDD6309D538426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E0BC2D72FF99EC3EC6F15A4F54E5D1 /* Pods-AKOCommonToolsKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B7F9759C8F9CB97B8A77C42A0C0BDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AKOCommonToolsKit_Example";
+			target = 7CEDAD2E1A1C18AB298ABD61975A3C99 /* Pods-AKOCommonToolsKit_Example */;
+			targetProxy = DB7B5B15B1A73BA938CC4CC1FE4296E6 /* PBXContainerItemProxy */;
+		};
+		D3927BE96161929A27196C0EE4F5177C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKOCommonToolsKit;
+			target = DF832F384E15469DFE1F9F7E5152A7D3 /* AKOCommonToolsKit */;
+			targetProxy = 0E969691BBC66A18DE37A21631FD6D70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20E2977C1CA9772210D7F41371F255A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8A0905FB08690D12143FD8501E1163 /* Pods-AKOCommonToolsKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Example/Pods-AKOCommonToolsKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Example/Pods-AKOCommonToolsKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D5B22E21893DAE528FB368884DAFAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5092E06CC5738A1C9815E86BDCF6BD12 /* Pods-AKOCommonToolsKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Example/Pods-AKOCommonToolsKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Example/Pods-AKOCommonToolsKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3208C693F5F1D15351380DDF13185ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22FFA68C646BCE97A5FDB0823797F46 /* AKOCommonToolsKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit.modulemap";
+				PRODUCT_MODULE_NAME = AKOCommonToolsKit;
+				PRODUCT_NAME = AKOCommonToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F71E0308C6548A620B9ECA8752D9ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B656DE883DF783545729D3A94436A46F /* Pods-AKOCommonToolsKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Tests/Pods-AKOCommonToolsKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Tests/Pods-AKOCommonToolsKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89328D61C403531E9121FE751FFF2CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9453BCBA108BEF6ED781173AE3D81A17 /* Pods-AKOCommonToolsKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Tests/Pods-AKOCommonToolsKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKOCommonToolsKit_Tests/Pods-AKOCommonToolsKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F8379A57F79E113C73AFC117F7A08F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750AC6D51841F1828567FC7A57218428 /* AKOCommonToolsKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit.modulemap";
+				PRODUCT_MODULE_NAME = AKOCommonToolsKit;
+				PRODUCT_NAME = AKOCommonToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146B252D682E3542ED0E9714FB0CE458 /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8379A57F79E113C73AFC117F7A08F31 /* Debug */,
+				3208C693F5F1D15351380DDF13185ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517D11C20A4F63B3381B28E5C2FEB491 /* Build configuration list for PBXNativeTarget "Pods-AKOCommonToolsKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E2977C1CA9772210D7F41371F255A8 /* Debug */,
+				2D5B22E21893DAE528FB368884DAFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D602A6D5A9575E5510D2D2AF4A271EB3 /* Build configuration list for PBXNativeTarget "Pods-AKOCommonToolsKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F71E0308C6548A620B9ECA8752D9ED5 /* Debug */,
+				89328D61C403531E9121FE751FFF2CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

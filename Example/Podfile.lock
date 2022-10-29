@@ -1,0 +1,16 @@
+PODS:
+  - AKOCommonToolsKit (0.1.0)
+
+DEPENDENCIES:
+  - AKOCommonToolsKit (from `../`)
+
+EXTERNAL SOURCES:
+  AKOCommonToolsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKOCommonToolsKit: 04bb1fecd0e1184aac8cc95cc64e9564952f9e88
+
+PODFILE CHECKSUM: 7599c3c8a56a33e7580f51238272e48250311cd8
+
+COCOAPODS: 1.11.3

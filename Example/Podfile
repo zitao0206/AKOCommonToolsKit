@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AKOCommonToolsKit_Example' do
+  pod 'AKOCommonToolsKit', :path => '../'
+
+  target 'AKOCommonToolsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
