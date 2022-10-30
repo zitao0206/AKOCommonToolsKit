@@ -22,7 +22,7 @@ pod 'AKOCommonToolsKit'
 
 ## Author
 
-lizitao, 634376133@qq.com
+Leon, 634376133@qq.com
 
 ## License
 
