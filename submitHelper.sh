@@ -13,7 +13,7 @@ git add .
 if [ $input ]; then
     git commit -am $input
 else
-    git commit -am "自动化代码提交"
+    git commit -am "Script Submission"
 fi
 git push origin master
 
@@ -44,11 +44,11 @@ for((k=0;k<100;k++)) do
     fi
 done;
 
-echo "自动升级tag为："$latestTag
+echo "Upgrade tag to："$latestTag
 git tag $latestTag
 git push -v origin refs/tags/$latestTag
 sleep 3
-echo "自动发版到MDSpecs"
+echo "Publish to MDSpecs"
 #./publishHelper.sh
 
 #获取podspec文件名称
@@ -81,7 +81,7 @@ cp $packageDIR/${podspecFile} ${specsDir}${podName}/${version}
 echo '文件copy'
 destSource='"'${version}'"'
 sed -i ''  's/= smart_version/= '${destSource}'/g' ${specsDir}${podName}/${version}/${podspecFile}
-echo '替换版本号'
+echo 'Replace version number'
 
 nowDIR=`pwd`
 echo 'nowDIR->' ${nowDIR}
