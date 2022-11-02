@@ -15,7 +15,7 @@ if [ $input ]; then
 else
     git commit -am "Script Submission"
 fi
-git push origin master
+git push -f origin main
 
 git fetch
 result=$(git tag --list)
