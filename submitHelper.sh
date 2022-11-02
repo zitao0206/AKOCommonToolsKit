@@ -46,7 +46,7 @@ done;
 
 echo "Upgrade tag to："$latestTag
 git tag $latestTag
-git push -v -f origin main refs/tags/$latestTag
+git push -f origin refs/tags/$latestTag
 sleep 3
 echo "Publish to MDSpecs"
 #./publishHelper.sh
