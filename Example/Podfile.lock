@@ -1,5 +1,5 @@
 PODS:
-  - AKOCommonToolsKit (0.1.0)
+  - AKOCommonToolsKit (0.0.1)
 
 DEPENDENCIES:
   - AKOCommonToolsKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AKOCommonToolsKit: 04bb1fecd0e1184aac8cc95cc64e9564952f9e88
+  AKOCommonToolsKit: cfa8f9edd1831af89e7ab70270a1890ea82a7470
 
 PODFILE CHECKSUM: 7599c3c8a56a33e7580f51238272e48250311cd8
 

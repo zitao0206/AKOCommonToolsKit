@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07E58C6A9990AEFD323D9838851DADE1 /* NSArray+functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F85193CE638843C7DF62992F6641097 /* NSArray+functional.m */; };
+		07E58C6A9990AEFD323D9838851DADE1 /* NSArray+functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D02EAA5416765580F23949F6FC374A78 /* NSArray+functional.m */; };
+		1405800F41889B79A67D6AC540C4E183 /* AKOCommonToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AC3B33F4356233D82B584F2E16F11C /* AKOCommonToolsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C70388CC22B0509FFFD35992416802D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1F8D3DDDEF344341B946D2260B8B4E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3EFD5149D446CD9E9B20770572089232 /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E0443617240B263341C6139CE488D4 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F2ED4ABD7D0A0E008A01AE2FCF745B8 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA2D3C04D90044F2174C44A9CA7F8A /* UIColor+Ext.m */; };
-		63FAA60DA557C2EB7FBB419902DEB296 /* NSArray+functional.h in Headers */ = {isa = PBXBuildFile; fileRef = A7D13F420A23DE407089D70145571389 /* NSArray+functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D8238608A7CBDFA595F45853B083E87 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D536244EFC22200CB727D635DEE73A9C /* NSString+Ext.m */; };
+		4F2ED4ABD7D0A0E008A01AE2FCF745B8 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C33650949E6A376218163A9213EDDF8 /* UIColor+Ext.m */; };
+		6918A8B68D14AAD333EEB0459CBB8F0B /* AKOCommonToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2271A09D858D032A98F7039FD6E29D3F /* AKOCommonToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D8238608A7CBDFA595F45853B083E87 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D492BF7896BD10455E70DA52103E201B /* NSString+Ext.m */; };
 		78E0BC2D72FF99EC3EC6F15A4F54E5D1 /* Pods-AKOCommonToolsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */; };
-		894F2CAE50D86CA8723642E52950439E /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 87150EC27AF8B131E3FEF9C79B79420D /* NSURL+Ext.m */; };
+		8918BD89D3A950DA8DF9A51D24CD1ACE /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B428A994A33201B353BB39E81ECBC3C /* NSString+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		894F2CAE50D86CA8723642E52950439E /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6E7FE897D4869719A874C0761BE45B /* NSURL+Ext.m */; };
 		8FF9C31E5F4EE19894CD7482E5B2273E /* Pods-AKOCommonToolsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */; };
-		9404C04A18886777FBA1F8E7C351609A /* AKOCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 48068FB65BACF9C2EC6822F6C6FFCF70 /* AKOCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B35E1AB62A88E64D3E16A7720BA5727F /* AKOCommonToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15001E9448284E6A6E318D9D03213CC4 /* AKOCommonToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B976EAA421DEE00800FD3DD1BD5EA8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BAF62F5FBD277DAF0B9A0E98444AB7B8 /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDABEA1D2B204C979968D25B5089467 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0989692455B95C71082EE62641CC16A /* Pods-AKOCommonToolsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C39E98078F625259BB63EE8EF6EDC43B /* NSURL+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = E63A66971C0C8F122B4A31F8B78CC243 /* NSURL+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CACDFE58B826CC7A796B1385B3A4339B /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7C744752AD84AB3B036B619B850FF1 /* NSString+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF5F6CB039417C1A0D32A9F2103D5FA3 /* AKOCommonMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AFB695F753A14AFAF80B55B7F735F9 /* AKOCommonMacroDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8736C2DE8BCB528E33CCC46EA695524 /* AKOCommonToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2079A7DE236DE186925A86B40028F9 /* AKOCommonToolsKit-dummy.m */; };
+		C526732B3A0D81368DB220435D50425E /* AKOCommonMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C348FD0C35F269790EC98B1E346CD915 /* AKOCommonMacroDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F9D7C84C8E8C0509C850807AC927B7 /* NSURL+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F17EDC49D086F27C1C570898F9DA9D0B /* NSURL+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F67FE4AAA194DB77AE82667146E248 /* NSArray+functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 00694110C9333655482064D30DD861E2 /* NSArray+functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8736C2DE8BCB528E33CCC46EA695524 /* AKOCommonToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F80AE7817639BCA443003EF9A5910F /* AKOCommonToolsKit-dummy.m */; };
 		FE6AF067EA3540FD10DF36B04FF008FA /* Pods-AKOCommonToolsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -46,48 +46,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00694110C9333655482064D30DD861E2 /* NSArray+functional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+functional.h"; sourceTree = "<group>"; };
 		05EE90C814D93EB1DFC465E8A4DCFC9F /* AKOCommonToolsKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKOCommonToolsKit; path = AKOCommonToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B2079A7DE236DE186925A86B40028F9 /* AKOCommonToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKOCommonToolsKit-dummy.m"; sourceTree = "<group>"; };
+		0B0AC3CAC6DD9399487F4476287163FF /* AKOCommonToolsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.debug.xcconfig; sourceTree = "<group>"; };
 		0C1877E527C0167833D9662472C96B8F /* Pods-AKOCommonToolsKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKOCommonToolsKit_Example"; path = Pods_AKOCommonToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKOCommonToolsKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		11930B83813A029666EF940EA7752E6F /* AKOCommonToolsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.release.xcconfig; sourceTree = "<group>"; };
-		15001E9448284E6A6E318D9D03213CC4 /* AKOCommonToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-umbrella.h"; sourceTree = "<group>"; };
 		1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKOCommonToolsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1F3BD15C874C8BB9F048F12EE84D2696 /* Pods-AKOCommonToolsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKOCommonToolsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2271A09D858D032A98F7039FD6E29D3F /* AKOCommonToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-umbrella.h"; sourceTree = "<group>"; };
 		22E033EB008F49D46A9D15A781232590 /* Pods-AKOCommonToolsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2692CEC7C46059FEB0E5E43605CD09FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		29EEA0FE877E470556D23B19421433CC /* AKOCommonToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKOCommonToolsKit.modulemap; sourceTree = "<group>"; };
-		3A7C744752AD84AB3B036B619B850FF1 /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
-		3F66E0645201FA707C30185BDC97CD42 /* AKOCommonToolsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.debug.xcconfig; sourceTree = "<group>"; };
-		3F85193CE638843C7DF62992F6641097 /* NSArray+functional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+functional.m"; sourceTree = "<group>"; };
-		44E0443617240B263341C6139CE488D4 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
-		48068FB65BACF9C2EC6822F6C6FFCF70 /* AKOCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOCommonKit.h; path = AKOCommonToolsKit/Classes/AKOCommonKit.h; sourceTree = "<group>"; };
 		4F0453256152CE43056FF225FD6B96F5 /* Pods-AKOCommonToolsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKOCommonToolsKit_Tests.modulemap"; sourceTree = "<group>"; };
 		5092E06CC5738A1C9815E86BDCF6BD12 /* Pods-AKOCommonToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		533DD2BACE405F590070FE2ED9286AD4 /* Pods-AKOCommonToolsKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		554E1B3823FD4FFB6915A8CF3005EA60 /* Pods-AKOCommonToolsKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Example-Info.plist"; sourceTree = "<group>"; };
-		588BD963EA3F5FC2B8E140F7492E4E9B /* AKOCommonToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKOCommonToolsKit-Info.plist"; sourceTree = "<group>"; };
+		5B53B36B8A6B5AAA7C7F6B288FEFFBD4 /* AKOCommonToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKOCommonToolsKit-Info.plist"; sourceTree = "<group>"; };
+		60F80AE7817639BCA443003EF9A5910F /* AKOCommonToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKOCommonToolsKit-dummy.m"; sourceTree = "<group>"; };
 		66A75E77554599815A759C9E534FD0D6 /* Pods-AKOCommonToolsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKOCommonToolsKit_Example.modulemap"; sourceTree = "<group>"; };
 		6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKOCommonToolsKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6B428A994A33201B353BB39E81ECBC3C /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
 		6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKOCommonToolsKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		87150EC27AF8B131E3FEF9C79B79420D /* NSURL+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Ext.m"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.m"; sourceTree = "<group>"; };
-		88AFB695F753A14AFAF80B55B7F735F9 /* AKOCommonMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AKOCommonMacroDefine.h; sourceTree = "<group>"; };
-		89D2AFDD8C22DC2B5A25F8ED6F805951 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8BDABEA1D2B204C979968D25B5089467 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
+		8C33650949E6A376218163A9213EDDF8 /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
 		9453BCBA108BEF6ED781173AE3D81A17 /* Pods-AKOCommonToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9BE392EA759118A51164A84937F205AC /* AKOCommonToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A020E074BE01115F507713EA9F9764EB /* Pods-AKOCommonToolsKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKOCommonToolsKit_Tests"; path = Pods_AKOCommonToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7D13F420A23DE407089D70145571389 /* NSArray+functional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+functional.h"; sourceTree = "<group>"; };
+		ABD43A0310D86F7A862F014EB9B228FB /* AKOCommonToolsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.release.xcconfig; sourceTree = "<group>"; };
 		AC2AE61384B147ECCCDC3E0BBE629B30 /* Pods-AKOCommonToolsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKOCommonToolsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AFFF10A66C597B774B0A4D59D60D3766 /* AKOCommonToolsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKOCommonToolsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5FA7B6E35251D66EB7D7237842EF73C /* AKOCommonToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-prefix.pch"; sourceTree = "<group>"; };
 		B656DE883DF783545729D3A94436A46F /* Pods-AKOCommonToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D536244EFC22200CB727D635DEE73A9C /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		C348FD0C35F269790EC98B1E346CD915 /* AKOCommonMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AKOCommonMacroDefine.h; sourceTree = "<group>"; };
+		D02EAA5416765580F23949F6FC374A78 /* NSArray+functional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+functional.m"; sourceTree = "<group>"; };
+		D492BF7896BD10455E70DA52103E201B /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
 		D734E1B929ED715B7C6383A685F1588E /* Pods-AKOCommonToolsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E17E7435F20E5B5616952B861D1428C4 /* AKOCommonToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKOCommonToolsKit.modulemap; sourceTree = "<group>"; };
 		E562EB3FDA25F8C5E8999832FE267BCA /* Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E63A66971C0C8F122B4A31F8B78CC243 /* NSURL+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Ext.h"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.h"; sourceTree = "<group>"; };
 		EB8A0905FB08690D12143FD8501E1163 /* Pods-AKOCommonToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FAF0F85AF039F0D8664A9EFF7FCE5853 /* AKOCommonToolsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKOCommonToolsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FDBA2D3C04D90044F2174C44A9CA7F8A /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
+		EC6E7FE897D4869719A874C0761BE45B /* NSURL+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Ext.m"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.m"; sourceTree = "<group>"; };
+		F17EDC49D086F27C1C570898F9DA9D0B /* NSURL+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Ext.h"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.h"; sourceTree = "<group>"; };
+		F1E2608F8A4EC07B602AB9F6865B5F03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F65977104383A5F20A24A49E21EF4B55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7AC3B33F4356233D82B584F2E16F11C /* AKOCommonToolsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOCommonToolsKit.h; path = AKOCommonToolsKit/Classes/AKOCommonToolsKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,21 +118,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D16BEACCB4DB75CE9A460C578754E00 /* Pod */ = {
+		17E6B11B66E00181E5032DC496AEFEE0 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				FAF0F85AF039F0D8664A9EFF7FCE5853 /* AKOCommonToolsKit.podspec */,
-				2692CEC7C46059FEB0E5E43605CD09FD /* LICENSE */,
-				89D2AFDD8C22DC2B5A25F8ED6F805951 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1382924811478BC0A1FED190A19B79DC /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				44E0443617240B263341C6139CE488D4 /* UIColor+Ext.h */,
-				FDBA2D3C04D90044F2174C44A9CA7F8A /* UIColor+Ext.m */,
+				8BDABEA1D2B204C979968D25B5089467 /* UIColor+Ext.h */,
+				8C33650949E6A376218163A9213EDDF8 /* UIColor+Ext.m */,
 			);
 			name = UIColor;
 			path = AKOCommonToolsKit/Classes/UIColor;
@@ -155,6 +145,33 @@
 			path = "Target Support Files/Pods-AKOCommonToolsKit_Example";
 			sourceTree = "<group>";
 		};
+		3B4C6A74202CF1A60878514D6F427F74 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF10A66C597B774B0A4D59D60D3766 /* AKOCommonToolsKit.podspec */,
+				F65977104383A5F20A24A49E21EF4B55 /* LICENSE */,
+				F1E2608F8A4EC07B602AB9F6865B5F03 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		51B45426FCA5D25C9C6AB3E7F8C5CF38 /* AKOCommonToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC3B33F4356233D82B584F2E16F11C /* AKOCommonToolsKit.h */,
+				F17EDC49D086F27C1C570898F9DA9D0B /* NSURL+Ext.h */,
+				EC6E7FE897D4869719A874C0761BE45B /* NSURL+Ext.m */,
+				D619A99EF384A38C8EBD44B0C19B592B /* MacroDefine */,
+				C2DE4F8B66E4A0CF86AAFF90E493AEFC /* NSArray */,
+				D378A061EDAB67E3BFB2081F0FFC5D8E /* NSString */,
+				3B4C6A74202CF1A60878514D6F427F74 /* Pod */,
+				850BF1C5F0632B88A9FD42D8AC2D5240 /* Support Files */,
+				17E6B11B66E00181E5032DC496AEFEE0 /* UIColor */,
+			);
+			name = AKOCommonToolsKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,41 +180,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		622E2E3AF24C02842FD9225B065D9485 /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				A7D13F420A23DE407089D70145571389 /* NSArray+functional.h */,
-				3F85193CE638843C7DF62992F6641097 /* NSArray+functional.m */,
-			);
-			name = NSArray;
-			path = AKOCommonToolsKit/Classes/NSArray;
-			sourceTree = "<group>";
-		};
 		665C3B69D2DD30B5FDAE008B9617B748 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F19C7B2E7FB76F7D3FFA95184CF96C68 /* AKOCommonToolsKit */,
+				51B45426FCA5D25C9C6AB3E7F8C5CF38 /* AKOCommonToolsKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		755926F9DEA98729CC583D66BFDF7A6F /* MacroDefine */ = {
+		850BF1C5F0632B88A9FD42D8AC2D5240 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88AFB695F753A14AFAF80B55B7F735F9 /* AKOCommonMacroDefine.h */,
+				E17E7435F20E5B5616952B861D1428C4 /* AKOCommonToolsKit.modulemap */,
+				60F80AE7817639BCA443003EF9A5910F /* AKOCommonToolsKit-dummy.m */,
+				5B53B36B8A6B5AAA7C7F6B288FEFFBD4 /* AKOCommonToolsKit-Info.plist */,
+				B5FA7B6E35251D66EB7D7237842EF73C /* AKOCommonToolsKit-prefix.pch */,
+				2271A09D858D032A98F7039FD6E29D3F /* AKOCommonToolsKit-umbrella.h */,
+				0B0AC3CAC6DD9399487F4476287163FF /* AKOCommonToolsKit.debug.xcconfig */,
+				ABD43A0310D86F7A862F014EB9B228FB /* AKOCommonToolsKit.release.xcconfig */,
 			);
-			name = MacroDefine;
-			path = AKOCommonToolsKit/Classes/MacroDefine;
-			sourceTree = "<group>";
-		};
-		910DB4B97FDF0F801319D53471E8C9EA /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				3A7C744752AD84AB3B036B619B850FF1 /* NSString+Ext.h */,
-				D536244EFC22200CB727D635DEE73A9C /* NSString+Ext.m */,
-			);
-			name = NSString;
-			path = AKOCommonToolsKit/Classes/NSString;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AKOCommonToolsKit";
 			sourceTree = "<group>";
 		};
 		A34C25FC8D4192CC9B72F5C66D995AFB /* Targets Support Files */ = {
@@ -217,6 +220,16 @@
 				A020E074BE01115F507713EA9F9764EB /* Pods-AKOCommonToolsKit_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C2DE4F8B66E4A0CF86AAFF90E493AEFC /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				00694110C9333655482064D30DD861E2 /* NSArray+functional.h */,
+				D02EAA5416765580F23949F6FC374A78 /* NSArray+functional.m */,
+			);
+			name = NSArray;
+			path = AKOCommonToolsKit/Classes/NSArray;
 			sourceTree = "<group>";
 		};
 		CE6E40DC3A8F722802EEF3B08831534F /* Pods-AKOCommonToolsKit_Tests */ = {
@@ -254,55 +267,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5040A639028BD252889051DCCB6F819 /* Support Files */ = {
+		D378A061EDAB67E3BFB2081F0FFC5D8E /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				29EEA0FE877E470556D23B19421433CC /* AKOCommonToolsKit.modulemap */,
-				0B2079A7DE236DE186925A86B40028F9 /* AKOCommonToolsKit-dummy.m */,
-				588BD963EA3F5FC2B8E140F7492E4E9B /* AKOCommonToolsKit-Info.plist */,
-				9BE392EA759118A51164A84937F205AC /* AKOCommonToolsKit-prefix.pch */,
-				15001E9448284E6A6E318D9D03213CC4 /* AKOCommonToolsKit-umbrella.h */,
-				3F66E0645201FA707C30185BDC97CD42 /* AKOCommonToolsKit.debug.xcconfig */,
-				11930B83813A029666EF940EA7752E6F /* AKOCommonToolsKit.release.xcconfig */,
+				6B428A994A33201B353BB39E81ECBC3C /* NSString+Ext.h */,
+				D492BF7896BD10455E70DA52103E201B /* NSString+Ext.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AKOCommonToolsKit";
+			name = NSString;
+			path = AKOCommonToolsKit/Classes/NSString;
 			sourceTree = "<group>";
 		};
-		F19C7B2E7FB76F7D3FFA95184CF96C68 /* AKOCommonToolsKit */ = {
+		D619A99EF384A38C8EBD44B0C19B592B /* MacroDefine */ = {
 			isa = PBXGroup;
 			children = (
-				48068FB65BACF9C2EC6822F6C6FFCF70 /* AKOCommonKit.h */,
-				E63A66971C0C8F122B4A31F8B78CC243 /* NSURL+Ext.h */,
-				87150EC27AF8B131E3FEF9C79B79420D /* NSURL+Ext.m */,
-				755926F9DEA98729CC583D66BFDF7A6F /* MacroDefine */,
-				622E2E3AF24C02842FD9225B065D9485 /* NSArray */,
-				910DB4B97FDF0F801319D53471E8C9EA /* NSString */,
-				0D16BEACCB4DB75CE9A460C578754E00 /* Pod */,
-				D5040A639028BD252889051DCCB6F819 /* Support Files */,
-				1382924811478BC0A1FED190A19B79DC /* UIColor */,
+				C348FD0C35F269790EC98B1E346CD915 /* AKOCommonMacroDefine.h */,
 			);
-			name = AKOCommonToolsKit;
-			path = ../..;
+			name = MacroDefine;
+			path = AKOCommonToolsKit/Classes/MacroDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		040F46EA207D3A33CB07001E6DA4B28D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9404C04A18886777FBA1F8E7C351609A /* AKOCommonKit.h in Headers */,
-				CF5F6CB039417C1A0D32A9F2103D5FA3 /* AKOCommonMacroDefine.h in Headers */,
-				B35E1AB62A88E64D3E16A7720BA5727F /* AKOCommonToolsKit-umbrella.h in Headers */,
-				63FAA60DA557C2EB7FBB419902DEB296 /* NSArray+functional.h in Headers */,
-				CACDFE58B826CC7A796B1385B3A4339B /* NSString+Ext.h in Headers */,
-				C39E98078F625259BB63EE8EF6EDC43B /* NSURL+Ext.h in Headers */,
-				3EFD5149D446CD9E9B20770572089232 /* UIColor+Ext.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		73C5C365DB23634834628A9378EE4615 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,6 +302,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE6AF067EA3540FD10DF36B04FF008FA /* Pods-AKOCommonToolsKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71857152930D76B76D4E2262C61F468 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C526732B3A0D81368DB220435D50425E /* AKOCommonMacroDefine.h in Headers */,
+				1405800F41889B79A67D6AC540C4E183 /* AKOCommonToolsKit.h in Headers */,
+				6918A8B68D14AAD333EEB0459CBB8F0B /* AKOCommonToolsKit-umbrella.h in Headers */,
+				F7F67FE4AAA194DB77AE82667146E248 /* NSArray+functional.h in Headers */,
+				8918BD89D3A950DA8DF9A51D24CD1ACE /* NSString+Ext.h in Headers */,
+				E0F9D7C84C8E8C0509C850807AC927B7 /* NSURL+Ext.h in Headers */,
+				BAF62F5FBD277DAF0B9A0E98444AB7B8 /* UIColor+Ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +364,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FC5759DFA96CAC9CB809327BCF6ED8C /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */;
 			buildPhases = (
-				040F46EA207D3A33CB07001E6DA4B28D /* Headers */,
+				F71857152930D76B76D4E2262C61F468 /* Headers */,
 				2BF98DB32F373A3A4979D4E8AAF1DB16 /* Sources */,
 				1D285418EF89FC104D74D7A61C5EA1B7 /* Frameworks */,
 				1FFF530EF6ADAFE71B3C66FBB4D57449 /* Resources */,
@@ -547,7 +547,7 @@
 		};
 		2F022D1E3231581DAFEEF504F5144ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F66E0645201FA707C30185BDC97CD42 /* AKOCommonToolsKit.debug.xcconfig */;
+			baseConfigurationReference = 0B0AC3CAC6DD9399487F4476287163FF /* AKOCommonToolsKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,7 +578,7 @@
 		};
 		4517CA86ADB4481B55B4B9CA4DB24E5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11930B83813A029666EF940EA7752E6F /* AKOCommonToolsKit.release.xcconfig */;
+			baseConfigurationReference = ABD43A0310D86F7A862F014EB9B228FB /* AKOCommonToolsKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
