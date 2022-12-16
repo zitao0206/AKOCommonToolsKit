@@ -9,9 +9,10 @@ else
     input=$1
 fi
 
-git add .
+git add -A
 if [ $input ]; then
     git commit -am $input
+    echo $input
 else
     git commit -am "Script Submission"
 fi
