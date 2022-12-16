@@ -32,7 +32,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Leon0206/AKOCommonToolsKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '__MODULE_NAME__=\"AKOCommonToolsKit\" MODULE_NAME=@\"AKOCommonToolsKit\"'}
+  s.pod_target_xcconfig = {
+    'GCC_PREPROCESSOR_DEFINITIONS' => '__MODULE_NAME__=\"AKOCommonToolsKit\" MODULE_NAME=@\"AKOCommonToolsKit\"',
+    'GCC_PRECOMPILE_PREFIX_HEADER' => true,
+    'CLANG_ENABLE_MODULES' => 'YES',
+  }
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'AKOCommonToolsKit/Classes/**/*'
