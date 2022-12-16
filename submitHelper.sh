@@ -4,18 +4,20 @@ sleep 2
 
 echo "-------Begin-------"
 if [ ! $1 ]; then
-    read -r -p "Please input your Video commit message: " input
+    read -r line "Please input your Video commit message: " input
 else
     input=$1
 fi
 
 git add -A
-if [ $input ]; then
+if [[ -n "$input" ]]; then
     git commit -am $input
-    echo $input
 else
     git commit -am "Script Submission"
 fi
+echo $input
+
+sleep 50
 git push -f origin main
 
 git fetch
