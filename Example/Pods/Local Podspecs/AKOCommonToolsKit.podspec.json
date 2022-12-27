@@ -15,6 +15,11 @@
     "git": "https://github.com/Leon0206/AKOCommonToolsKit.git",
     "tag": "0.0.1"
   },
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "__MODULE_NAME__=\\\"AKOCommonToolsKit\\\" MODULE_NAME=@\\\"AKOCommonToolsKit\\\"",
+    "GCC_PRECOMPILE_PREFIX_HEADER": true,
+    "CLANG_ENABLE_MODULES": "YES"
+  },
   "platforms": {
     "ios": "10.0"
   },

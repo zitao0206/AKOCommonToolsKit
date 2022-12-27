@@ -7,103 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07E58C6A9990AEFD323D9838851DADE1 /* NSArray+functional.m in Sources */ = {isa = PBXBuildFile; fileRef = D02EAA5416765580F23949F6FC374A78 /* NSArray+functional.m */; };
-		1405800F41889B79A67D6AC540C4E183 /* AKOCommonToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AC3B33F4356233D82B584F2E16F11C /* AKOCommonToolsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0601EEE2D033CEE3F4C9F6A82A29B69B /* UIImage+AKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAD563A95833AFE8B5223FD651C61B1 /* UIImage+AKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C70388CC22B0509FFFD35992416802D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1F8D3DDDEF344341B946D2260B8B4E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4F2ED4ABD7D0A0E008A01AE2FCF745B8 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C33650949E6A376218163A9213EDDF8 /* UIColor+Ext.m */; };
-		6918A8B68D14AAD333EEB0459CBB8F0B /* AKOCommonToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2271A09D858D032A98F7039FD6E29D3F /* AKOCommonToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D8238608A7CBDFA595F45853B083E87 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = D492BF7896BD10455E70DA52103E201B /* NSString+Ext.m */; };
+		263D60476917A053F5C850A238BCFF39 /* AKOCommonToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB8B6F2A0ACE06C0CD219EEBE4FF825 /* AKOCommonToolsKit-dummy.m */; };
+		3306A2CF7186B992FFF79C5092BF14AB /* NSArray+functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E65DA56B4751824C99A9D0064F9DD48 /* NSArray+functional.m */; };
+		3B42327E2F6581C5A3BE9B625FCFD6B2 /* UIImage+AKOKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA5D00B20F2FA224E9B498228D35AD /* UIImage+AKOKit.m */; };
+		45F6E6852D3E9E133B31EBEDA29B59C3 /* AKOCommonToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7598525AD674ED0FCCC759057E83AF3D /* AKOCommonToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502AD98DA59317A79D0966E52F8F9D28 /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C5AFE7EAFDDF922C745CE7DC632108 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D3ECFE7AE0ED321140BEF7E978984B /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = FE58725DA62485B3B945E6C3F5DE0790 /* NSString+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D31B551ADEBC088898C0DE3077FB335 /* UIImage+AKOBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F08DCCC50DAE704B7F27D497F7171A /* UIImage+AKOBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E7163DBC4F7EF8B7517BB2BB1706DD2 /* NSURL+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = BF14EBE9A3621AA800835283FF593763 /* NSURL+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78E0BC2D72FF99EC3EC6F15A4F54E5D1 /* Pods-AKOCommonToolsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */; };
-		8918BD89D3A950DA8DF9A51D24CD1ACE /* NSString+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B428A994A33201B353BB39E81ECBC3C /* NSString+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		894F2CAE50D86CA8723642E52950439E /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6E7FE897D4869719A874C0761BE45B /* NSURL+Ext.m */; };
+		86A5B7C96EA3F5608EB167369DA89088 /* UIColor+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AB1866EB69EA02B7495B5A5982E401 /* UIColor+Ext.m */; };
 		8FF9C31E5F4EE19894CD7482E5B2273E /* Pods-AKOCommonToolsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */; };
+		958AAF104A2DBE88FD4B992413DAC07D /* NSURL+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = E1605F25C2F0AB4A2D1146E892645B11 /* NSURL+Ext.m */; };
+		A296FC2CE96F874C730CEE7C72AC5467 /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FE154E483656A1AEAB572C380F89403C /* NSString+Ext.m */; };
+		B663CDFE64E2FC1BD35EF09FB0D43ABD /* UIImage+AKOBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6064E9469251C05126DD1FD3E0905AF9 /* UIImage+AKOBundle.m */; };
 		B976EAA421DEE00800FD3DD1BD5EA8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BAF62F5FBD277DAF0B9A0E98444AB7B8 /* UIColor+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDABEA1D2B204C979968D25B5089467 /* UIColor+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0989692455B95C71082EE62641CC16A /* Pods-AKOCommonToolsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C526732B3A0D81368DB220435D50425E /* AKOCommonMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C348FD0C35F269790EC98B1E346CD915 /* AKOCommonMacroDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0F9D7C84C8E8C0509C850807AC927B7 /* NSURL+Ext.h in Headers */ = {isa = PBXBuildFile; fileRef = F17EDC49D086F27C1C570898F9DA9D0B /* NSURL+Ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7F67FE4AAA194DB77AE82667146E248 /* NSArray+functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 00694110C9333655482064D30DD861E2 /* NSArray+functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8736C2DE8BCB528E33CCC46EA695524 /* AKOCommonToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F80AE7817639BCA443003EF9A5910F /* AKOCommonToolsKit-dummy.m */; };
+		C0FE3E65C8C7DAF3EA509E1D26DE060E /* OSFCommonMacroDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1570392C32E936A30EA4041ED57058 /* OSFCommonMacroDefines.swift */; };
+		C8E0639610E9E71BE4D2B9211A8659E5 /* Collection+General.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3EA17B995D1982A3D32E31B4FB93C /* Collection+General.swift */; };
+		CB91B91926C9A0401F4E41494D1D3A13 /* NSBundle+AKOBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = AD52594990CA362D936703553DB096EF /* NSBundle+AKOBundle.m */; };
+		D5B32D985CF9874B9F994597E3DF1D91 /* Sequence+General.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6010A8D05AFFF52B1E00291892B7EEB /* Sequence+General.swift */; };
+		DA4011DD32EDF35E7BA7871800D56FD0 /* NSBundle+AKOBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 837EB0C337AF35816EDF74205BFB9A85 /* NSBundle+AKOBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC124E45645FCFA14ACD86BCB517518 /* NSArray+functional.h in Headers */ = {isa = PBXBuildFile; fileRef = F72CF72FE4744550B9C89ADFED2E7568 /* NSArray+functional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E92E63758FB0837399DFC20B1E6314FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED15CA17C420B50802F12D7CD77AEE5F /* AKOCommonToolsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF6D161D410E9E86284FA89B630AB33 /* AKOCommonToolsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00009BD5C175EAD4DB355EBF1D934EF /* AKOCommonMacroDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE7B2247BAE3ED5BE1671EB40431A3D /* AKOCommonMacroDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6AF067EA3540FD10DF36B04FF008FA /* Pods-AKOCommonToolsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4953DEB251F80CB366BA5142C1E7DCD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7CEDAD2E1A1C18AB298ABD61975A3C99;
-			remoteInfo = "Pods-AKOCommonToolsKit_Example";
-		};
-		C296423CFC121390C309DF5DE5563159 /* PBXContainerItemProxy */ = {
+		245F73589ECB752C1F0B44D62F435AAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DF832F384E15469DFE1F9F7E5152A7D3;
 			remoteInfo = AKOCommonToolsKit;
 		};
+		97ECE281951283B7C6351C4BB1653E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEDAD2E1A1C18AB298ABD61975A3C99;
+			remoteInfo = "Pods-AKOCommonToolsKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00694110C9333655482064D30DD861E2 /* NSArray+functional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+functional.h"; sourceTree = "<group>"; };
+		0578869EEC9D0FA77E811105F75E5ADB /* AKOCommonToolsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.release.xcconfig; sourceTree = "<group>"; };
 		05EE90C814D93EB1DFC465E8A4DCFC9F /* AKOCommonToolsKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKOCommonToolsKit; path = AKOCommonToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B0AC3CAC6DD9399487F4476287163FF /* AKOCommonToolsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.debug.xcconfig; sourceTree = "<group>"; };
 		0C1877E527C0167833D9662472C96B8F /* Pods-AKOCommonToolsKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKOCommonToolsKit_Example"; path = Pods_AKOCommonToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D348C82AA29217B93E1F5841905D75B /* Pods-AKOCommonToolsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKOCommonToolsKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		1048B25C5947D7CA4EBA0E944DE1FB90 /* AKOCommonToolsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKOCommonToolsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B4AAEF2C8D2F1065F7CB992FE37AAF1 /* Pods-AKOCommonToolsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKOCommonToolsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E65DA56B4751824C99A9D0064F9DD48 /* NSArray+functional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+functional.m"; sourceTree = "<group>"; };
 		1F3BD15C874C8BB9F048F12EE84D2696 /* Pods-AKOCommonToolsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKOCommonToolsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2271A09D858D032A98F7039FD6E29D3F /* AKOCommonToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-umbrella.h"; sourceTree = "<group>"; };
 		22E033EB008F49D46A9D15A781232590 /* Pods-AKOCommonToolsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		254514208292113AE372225B1D970187 /* AKOCommonToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-prefix.pch"; sourceTree = "<group>"; };
+		25F08DCCC50DAE704B7F27D497F7171A /* UIImage+AKOBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AKOBundle.h"; sourceTree = "<group>"; };
+		48AB1866EB69EA02B7495B5A5982E401 /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
+		4E39FA07152D18C302BFA5B09B2E70E4 /* AKOCommonToolsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.debug.xcconfig; sourceTree = "<group>"; };
 		4F0453256152CE43056FF225FD6B96F5 /* Pods-AKOCommonToolsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKOCommonToolsKit_Tests.modulemap"; sourceTree = "<group>"; };
 		5092E06CC5738A1C9815E86BDCF6BD12 /* Pods-AKOCommonToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		533DD2BACE405F590070FE2ED9286AD4 /* Pods-AKOCommonToolsKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		554E1B3823FD4FFB6915A8CF3005EA60 /* Pods-AKOCommonToolsKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Example-Info.plist"; sourceTree = "<group>"; };
-		5B53B36B8A6B5AAA7C7F6B288FEFFBD4 /* AKOCommonToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKOCommonToolsKit-Info.plist"; sourceTree = "<group>"; };
-		60F80AE7817639BCA443003EF9A5910F /* AKOCommonToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKOCommonToolsKit-dummy.m"; sourceTree = "<group>"; };
+		6064E9469251C05126DD1FD3E0905AF9 /* UIImage+AKOBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AKOBundle.m"; sourceTree = "<group>"; };
 		66A75E77554599815A759C9E534FD0D6 /* Pods-AKOCommonToolsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKOCommonToolsKit_Example.modulemap"; sourceTree = "<group>"; };
 		6A7D5FB541AD5AC0A7C48793BC421731 /* Pods-AKOCommonToolsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKOCommonToolsKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6B428A994A33201B353BB39E81ECBC3C /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
 		6E316169A536E4D133BE0662361B58D9 /* Pods-AKOCommonToolsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKOCommonToolsKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8BDABEA1D2B204C979968D25B5089467 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
-		8C33650949E6A376218163A9213EDDF8 /* UIColor+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Ext.m"; sourceTree = "<group>"; };
+		7598525AD674ED0FCCC759057E83AF3D /* AKOCommonToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-umbrella.h"; sourceTree = "<group>"; };
+		7D1570392C32E936A30EA4041ED57058 /* OSFCommonMacroDefines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OSFCommonMacroDefines.swift; sourceTree = "<group>"; };
+		81CA5D00B20F2FA224E9B498228D35AD /* UIImage+AKOKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AKOKit.m"; sourceTree = "<group>"; };
+		837EB0C337AF35816EDF74205BFB9A85 /* NSBundle+AKOBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+AKOBundle.h"; path = "AKOCommonToolsKit/Classes/NSBundle+AKOBundle.h"; sourceTree = "<group>"; };
+		87737E2AC6D68B879DDBBC483F5658BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9453BCBA108BEF6ED781173AE3D81A17 /* Pods-AKOCommonToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A020E074BE01115F507713EA9F9764EB /* Pods-AKOCommonToolsKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AKOCommonToolsKit_Tests"; path = Pods_AKOCommonToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABD43A0310D86F7A862F014EB9B228FB /* AKOCommonToolsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKOCommonToolsKit.release.xcconfig; sourceTree = "<group>"; };
+		A1F287C65B973C75CCD9C23F21411F32 /* AKOCommonToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKOCommonToolsKit.modulemap; sourceTree = "<group>"; };
+		AAF6D161D410E9E86284FA89B630AB33 /* AKOCommonToolsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOCommonToolsKit.h; path = AKOCommonToolsKit/Classes/AKOCommonToolsKit.h; sourceTree = "<group>"; };
 		AC2AE61384B147ECCCDC3E0BBE629B30 /* Pods-AKOCommonToolsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKOCommonToolsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AFFF10A66C597B774B0A4D59D60D3766 /* AKOCommonToolsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKOCommonToolsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5FA7B6E35251D66EB7D7237842EF73C /* AKOCommonToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit-prefix.pch"; sourceTree = "<group>"; };
+		AD52594990CA362D936703553DB096EF /* NSBundle+AKOBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+AKOBundle.m"; path = "AKOCommonToolsKit/Classes/NSBundle+AKOBundle.m"; sourceTree = "<group>"; };
+		ADB8B6F2A0ACE06C0CD219EEBE4FF825 /* AKOCommonToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKOCommonToolsKit-dummy.m"; sourceTree = "<group>"; };
 		B656DE883DF783545729D3A94436A46F /* Pods-AKOCommonToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C348FD0C35F269790EC98B1E346CD915 /* AKOCommonMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AKOCommonMacroDefine.h; sourceTree = "<group>"; };
-		D02EAA5416765580F23949F6FC374A78 /* NSArray+functional.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+functional.m"; sourceTree = "<group>"; };
-		D492BF7896BD10455E70DA52103E201B /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		BBE7B2247BAE3ED5BE1671EB40431A3D /* AKOCommonMacroDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AKOCommonMacroDefines.h; sourceTree = "<group>"; };
+		BF14EBE9A3621AA800835283FF593763 /* NSURL+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Ext.h"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.h"; sourceTree = "<group>"; };
+		C6010A8D05AFFF52B1E00291892B7EEB /* Sequence+General.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+General.swift"; sourceTree = "<group>"; };
+		CC8FE9CE765EC8CBCA11EBAD9E8CE2E6 /* AKOCommonToolsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKOCommonToolsKit-Info.plist"; sourceTree = "<group>"; };
+		D347E8DCD2B98B87015BAB98B625A896 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D734E1B929ED715B7C6383A685F1588E /* Pods-AKOCommonToolsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKOCommonToolsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E17E7435F20E5B5616952B861D1428C4 /* AKOCommonToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKOCommonToolsKit.modulemap; sourceTree = "<group>"; };
+		E1605F25C2F0AB4A2D1146E892645B11 /* NSURL+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Ext.m"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.m"; sourceTree = "<group>"; };
 		E562EB3FDA25F8C5E8999832FE267BCA /* Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKOCommonToolsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB8A0905FB08690D12143FD8501E1163 /* Pods-AKOCommonToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKOCommonToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC6E7FE897D4869719A874C0761BE45B /* NSURL+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Ext.m"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.m"; sourceTree = "<group>"; };
-		F17EDC49D086F27C1C570898F9DA9D0B /* NSURL+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Ext.h"; path = "AKOCommonToolsKit/Classes/NSURL+Ext.h"; sourceTree = "<group>"; };
-		F1E2608F8A4EC07B602AB9F6865B5F03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F65977104383A5F20A24A49E21EF4B55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F7AC3B33F4356233D82B584F2E16F11C /* AKOCommonToolsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOCommonToolsKit.h; path = AKOCommonToolsKit/Classes/AKOCommonToolsKit.h; sourceTree = "<group>"; };
+		F0C5AFE7EAFDDF922C745CE7DC632108 /* UIColor+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Ext.h"; sourceTree = "<group>"; };
+		F72CF72FE4744550B9C89ADFED2E7568 /* NSArray+functional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+functional.h"; sourceTree = "<group>"; };
+		FE154E483656A1AEAB572C380F89403C /* NSString+Ext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
+		FE58725DA62485B3B945E6C3F5DE0790 /* NSString+Ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
+		FEAD563A95833AFE8B5223FD651C61B1 /* UIImage+AKOKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AKOKit.h"; sourceTree = "<group>"; };
+		FEC3EA17B995D1982A3D32E31B4FB93C /* Collection+General.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collection+General.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D285418EF89FC104D74D7A61C5EA1B7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F8D3DDDEF344341B946D2260B8B4E95 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F1DA3C4E4D4C27BE926843C16A1D010 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C70388CC22B0509FFFD35992416802D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90FC8A20448760DAD63C1BEBD87D63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92E63758FB0837399DFC20B1E6314FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,14 +136,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17E6B11B66E00181E5032DC496AEFEE0 /* UIColor */ = {
+		0F882627482165CEE59BF6F83729860D /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				8BDABEA1D2B204C979968D25B5089467 /* UIColor+Ext.h */,
-				8C33650949E6A376218163A9213EDDF8 /* UIColor+Ext.m */,
+				FE58725DA62485B3B945E6C3F5DE0790 /* NSString+Ext.h */,
+				FE154E483656A1AEAB572C380F89403C /* NSString+Ext.m */,
 			);
-			name = UIColor;
-			path = AKOCommonToolsKit/Classes/UIColor;
+			name = NSString;
+			path = AKOCommonToolsKit/Classes/NSString;
+			sourceTree = "<group>";
+		};
+		2255388A5B7F067CED9D45D4CE12B465 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3EA17B995D1982A3D32E31B4FB93C /* Collection+General.swift */,
+				C6010A8D05AFFF52B1E00291892B7EEB /* Sequence+General.swift */,
+			);
+			name = Collections;
+			path = AKOCommonToolsKit/Classes/Collections;
+			sourceTree = "<group>";
+		};
+		264B56510862137F1A6596AD67F18A55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1048B25C5947D7CA4EBA0E944DE1FB90 /* AKOCommonToolsKit.podspec */,
+				D347E8DCD2B98B87015BAB98B625A896 /* LICENSE */,
+				87737E2AC6D68B879DDBBC483F5658BE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		31ADCC7469D68F51B14AC176B5D9138C /* Pods-AKOCommonToolsKit_Example */ = {
@@ -145,31 +183,22 @@
 			path = "Target Support Files/Pods-AKOCommonToolsKit_Example";
 			sourceTree = "<group>";
 		};
-		3B4C6A74202CF1A60878514D6F427F74 /* Pod */ = {
+		3B291FAE3B214C628E19B2BBDFFEEA32 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AFFF10A66C597B774B0A4D59D60D3766 /* AKOCommonToolsKit.podspec */,
-				F65977104383A5F20A24A49E21EF4B55 /* LICENSE */,
-				F1E2608F8A4EC07B602AB9F6865B5F03 /* README.md */,
+				BC258F1E1C832FFB71D8FC71C63066E7 /* AKOCommonToolsKit */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		51B45426FCA5D25C9C6AB3E7F8C5CF38 /* AKOCommonToolsKit */ = {
+		520EB70A739838897CEC7C361CCEC41C /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC3B33F4356233D82B584F2E16F11C /* AKOCommonToolsKit.h */,
-				F17EDC49D086F27C1C570898F9DA9D0B /* NSURL+Ext.h */,
-				EC6E7FE897D4869719A874C0761BE45B /* NSURL+Ext.m */,
-				D619A99EF384A38C8EBD44B0C19B592B /* MacroDefine */,
-				C2DE4F8B66E4A0CF86AAFF90E493AEFC /* NSArray */,
-				D378A061EDAB67E3BFB2081F0FFC5D8E /* NSString */,
-				3B4C6A74202CF1A60878514D6F427F74 /* Pod */,
-				850BF1C5F0632B88A9FD42D8AC2D5240 /* Support Files */,
-				17E6B11B66E00181E5032DC496AEFEE0 /* UIColor */,
+				F0C5AFE7EAFDDF922C745CE7DC632108 /* UIColor+Ext.h */,
+				48AB1866EB69EA02B7495B5A5982E401 /* UIColor+Ext.m */,
 			);
-			name = AKOCommonToolsKit;
-			path = ../..;
+			name = UIColor;
+			path = AKOCommonToolsKit/Classes/UIColor;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -180,27 +209,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		665C3B69D2DD30B5FDAE008B9617B748 /* Development Pods */ = {
+		8F7E0079CB8830AD1D104C9631909809 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				51B45426FCA5D25C9C6AB3E7F8C5CF38 /* AKOCommonToolsKit */,
+				25F08DCCC50DAE704B7F27D497F7171A /* UIImage+AKOBundle.h */,
+				6064E9469251C05126DD1FD3E0905AF9 /* UIImage+AKOBundle.m */,
+				FEAD563A95833AFE8B5223FD651C61B1 /* UIImage+AKOKit.h */,
+				81CA5D00B20F2FA224E9B498228D35AD /* UIImage+AKOKit.m */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		850BF1C5F0632B88A9FD42D8AC2D5240 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E17E7435F20E5B5616952B861D1428C4 /* AKOCommonToolsKit.modulemap */,
-				60F80AE7817639BCA443003EF9A5910F /* AKOCommonToolsKit-dummy.m */,
-				5B53B36B8A6B5AAA7C7F6B288FEFFBD4 /* AKOCommonToolsKit-Info.plist */,
-				B5FA7B6E35251D66EB7D7237842EF73C /* AKOCommonToolsKit-prefix.pch */,
-				2271A09D858D032A98F7039FD6E29D3F /* AKOCommonToolsKit-umbrella.h */,
-				0B0AC3CAC6DD9399487F4476287163FF /* AKOCommonToolsKit.debug.xcconfig */,
-				ABD43A0310D86F7A862F014EB9B228FB /* AKOCommonToolsKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AKOCommonToolsKit";
+			name = UIImage;
+			path = AKOCommonToolsKit/Classes/UIImage;
 			sourceTree = "<group>";
 		};
 		A34C25FC8D4192CC9B72F5C66D995AFB /* Targets Support Files */ = {
@@ -222,14 +240,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2DE4F8B66E4A0CF86AAFF90E493AEFC /* NSArray */ = {
+		BC258F1E1C832FFB71D8FC71C63066E7 /* AKOCommonToolsKit */ = {
 			isa = PBXGroup;
 			children = (
-				00694110C9333655482064D30DD861E2 /* NSArray+functional.h */,
-				D02EAA5416765580F23949F6FC374A78 /* NSArray+functional.m */,
+				AAF6D161D410E9E86284FA89B630AB33 /* AKOCommonToolsKit.h */,
+				837EB0C337AF35816EDF74205BFB9A85 /* NSBundle+AKOBundle.h */,
+				AD52594990CA362D936703553DB096EF /* NSBundle+AKOBundle.m */,
+				BF14EBE9A3621AA800835283FF593763 /* NSURL+Ext.h */,
+				E1605F25C2F0AB4A2D1146E892645B11 /* NSURL+Ext.m */,
+				2255388A5B7F067CED9D45D4CE12B465 /* Collections */,
+				D58D42678639A0F1AE256D77923C7028 /* MacroDefine */,
+				E4D07B2D1E1AA2AA3669517CA29EEB6D /* NSArray */,
+				0F882627482165CEE59BF6F83729860D /* NSString */,
+				264B56510862137F1A6596AD67F18A55 /* Pod */,
+				F5516B94B960AE9F415626B504024B4F /* Support Files */,
+				520EB70A739838897CEC7C361CCEC41C /* UIColor */,
+				8F7E0079CB8830AD1D104C9631909809 /* UIImage */,
 			);
-			name = NSArray;
-			path = AKOCommonToolsKit/Classes/NSArray;
+			name = AKOCommonToolsKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CE6E40DC3A8F722802EEF3B08831534F /* Pods-AKOCommonToolsKit_Tests */ = {
@@ -252,7 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				665C3B69D2DD30B5FDAE008B9617B748 /* Development Pods */,
+				3B291FAE3B214C628E19B2BBDFFEEA32 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B332B62EEC09E64E5541273611E8F676 /* Products */,
 				A34C25FC8D4192CC9B72F5C66D995AFB /* Targets Support Files */,
@@ -267,28 +296,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D378A061EDAB67E3BFB2081F0FFC5D8E /* NSString */ = {
+		D58D42678639A0F1AE256D77923C7028 /* MacroDefine */ = {
 			isa = PBXGroup;
 			children = (
-				6B428A994A33201B353BB39E81ECBC3C /* NSString+Ext.h */,
-				D492BF7896BD10455E70DA52103E201B /* NSString+Ext.m */,
-			);
-			name = NSString;
-			path = AKOCommonToolsKit/Classes/NSString;
-			sourceTree = "<group>";
-		};
-		D619A99EF384A38C8EBD44B0C19B592B /* MacroDefine */ = {
-			isa = PBXGroup;
-			children = (
-				C348FD0C35F269790EC98B1E346CD915 /* AKOCommonMacroDefine.h */,
+				BBE7B2247BAE3ED5BE1671EB40431A3D /* AKOCommonMacroDefines.h */,
+				7D1570392C32E936A30EA4041ED57058 /* OSFCommonMacroDefines.swift */,
 			);
 			name = MacroDefine;
 			path = AKOCommonToolsKit/Classes/MacroDefine;
 			sourceTree = "<group>";
 		};
+		E4D07B2D1E1AA2AA3669517CA29EEB6D /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				F72CF72FE4744550B9C89ADFED2E7568 /* NSArray+functional.h */,
+				1E65DA56B4751824C99A9D0064F9DD48 /* NSArray+functional.m */,
+			);
+			name = NSArray;
+			path = AKOCommonToolsKit/Classes/NSArray;
+			sourceTree = "<group>";
+		};
+		F5516B94B960AE9F415626B504024B4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1F287C65B973C75CCD9C23F21411F32 /* AKOCommonToolsKit.modulemap */,
+				ADB8B6F2A0ACE06C0CD219EEBE4FF825 /* AKOCommonToolsKit-dummy.m */,
+				CC8FE9CE765EC8CBCA11EBAD9E8CE2E6 /* AKOCommonToolsKit-Info.plist */,
+				254514208292113AE372225B1D970187 /* AKOCommonToolsKit-prefix.pch */,
+				7598525AD674ED0FCCC759057E83AF3D /* AKOCommonToolsKit-umbrella.h */,
+				4E39FA07152D18C302BFA5B09B2E70E4 /* AKOCommonToolsKit.debug.xcconfig */,
+				0578869EEC9D0FA77E811105F75E5ADB /* AKOCommonToolsKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AKOCommonToolsKit";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3324399EEF4C089F0686F51231341930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00009BD5C175EAD4DB355EBF1D934EF /* AKOCommonMacroDefines.h in Headers */,
+				ED15CA17C420B50802F12D7CD77AEE5F /* AKOCommonToolsKit.h in Headers */,
+				45F6E6852D3E9E133B31EBEDA29B59C3 /* AKOCommonToolsKit-umbrella.h in Headers */,
+				DFC124E45645FCFA14ACD86BCB517518 /* NSArray+functional.h in Headers */,
+				DA4011DD32EDF35E7BA7871800D56FD0 /* NSBundle+AKOBundle.h in Headers */,
+				67D3ECFE7AE0ED321140BEF7E978984B /* NSString+Ext.h in Headers */,
+				6E7163DBC4F7EF8B7517BB2BB1706DD2 /* NSURL+Ext.h in Headers */,
+				502AD98DA59317A79D0966E52F8F9D28 /* UIColor+Ext.h in Headers */,
+				6D31B551ADEBC088898C0DE3077FB335 /* UIImage+AKOBundle.h in Headers */,
+				0601EEE2D033CEE3F4C9F6A82A29B69B /* UIImage+AKOKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		73C5C365DB23634834628A9378EE4615 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,20 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE6AF067EA3540FD10DF36B04FF008FA /* Pods-AKOCommonToolsKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F71857152930D76B76D4E2262C61F468 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C526732B3A0D81368DB220435D50425E /* AKOCommonMacroDefine.h in Headers */,
-				1405800F41889B79A67D6AC540C4E183 /* AKOCommonToolsKit.h in Headers */,
-				6918A8B68D14AAD333EEB0459CBB8F0B /* AKOCommonToolsKit-umbrella.h in Headers */,
-				F7F67FE4AAA194DB77AE82667146E248 /* NSArray+functional.h in Headers */,
-				8918BD89D3A950DA8DF9A51D24CD1ACE /* NSString+Ext.h in Headers */,
-				E0F9D7C84C8E8C0509C850807AC927B7 /* NSURL+Ext.h in Headers */,
-				BAF62F5FBD277DAF0B9A0E98444AB7B8 /* UIColor+Ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +382,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CECC4D85970C6C42C8F6EECC5ADB222D /* PBXTargetDependency */,
+				4218CB72B70BB7CF196237310C9D50C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-AKOCommonToolsKit_Example";
 			productName = Pods_AKOCommonToolsKit_Example;
@@ -353,7 +401,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E6DFCFC3DA67A9E4AD6BDDF874450011 /* PBXTargetDependency */,
+				B361B22F1A51F0C8D00F3C76E8B6B347 /* PBXTargetDependency */,
 			);
 			name = "Pods-AKOCommonToolsKit_Tests";
 			productName = Pods_AKOCommonToolsKit_Tests;
@@ -362,12 +410,12 @@
 		};
 		DF832F384E15469DFE1F9F7E5152A7D3 /* AKOCommonToolsKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FC5759DFA96CAC9CB809327BCF6ED8C /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */;
+			buildConfigurationList = C1EA41B70735949EA82D9F4DF5A57D70 /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */;
 			buildPhases = (
-				F71857152930D76B76D4E2262C61F468 /* Headers */,
-				2BF98DB32F373A3A4979D4E8AAF1DB16 /* Sources */,
-				1D285418EF89FC104D74D7A61C5EA1B7 /* Frameworks */,
-				1FFF530EF6ADAFE71B3C66FBB4D57449 /* Resources */,
+				3324399EEF4C089F0686F51231341930 /* Headers */,
+				40E6E6ABE08FAB9B6CA8C351758F064E /* Sources */,
+				D90FC8A20448760DAD63C1BEBD87D63C /* Frameworks */,
+				122A133C7A9DF8A34E8492F7A348ADD7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -415,7 +463,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FFF530EF6ADAFE71B3C66FBB4D57449 /* Resources */ = {
+		122A133C7A9DF8A34E8492F7A348ADD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,15 +488,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BF98DB32F373A3A4979D4E8AAF1DB16 /* Sources */ = {
+		40E6E6ABE08FAB9B6CA8C351758F064E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8736C2DE8BCB528E33CCC46EA695524 /* AKOCommonToolsKit-dummy.m in Sources */,
-				07E58C6A9990AEFD323D9838851DADE1 /* NSArray+functional.m in Sources */,
-				6D8238608A7CBDFA595F45853B083E87 /* NSString+Ext.m in Sources */,
-				894F2CAE50D86CA8723642E52950439E /* NSURL+Ext.m in Sources */,
-				4F2ED4ABD7D0A0E008A01AE2FCF745B8 /* UIColor+Ext.m in Sources */,
+				263D60476917A053F5C850A238BCFF39 /* AKOCommonToolsKit-dummy.m in Sources */,
+				C8E0639610E9E71BE4D2B9211A8659E5 /* Collection+General.swift in Sources */,
+				3306A2CF7186B992FFF79C5092BF14AB /* NSArray+functional.m in Sources */,
+				CB91B91926C9A0401F4E41494D1D3A13 /* NSBundle+AKOBundle.m in Sources */,
+				A296FC2CE96F874C730CEE7C72AC5467 /* NSString+Ext.m in Sources */,
+				958AAF104A2DBE88FD4B992413DAC07D /* NSURL+Ext.m in Sources */,
+				C0FE3E65C8C7DAF3EA509E1D26DE060E /* OSFCommonMacroDefines.swift in Sources */,
+				D5B32D985CF9874B9F994597E3DF1D91 /* Sequence+General.swift in Sources */,
+				86A5B7C96EA3F5608EB167369DA89088 /* UIColor+Ext.m in Sources */,
+				B663CDFE64E2FC1BD35EF09FB0D43ABD /* UIImage+AKOBundle.m in Sources */,
+				3B42327E2F6581C5A3BE9B625FCFD6B2 /* UIImage+AKOKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,17 +517,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CECC4D85970C6C42C8F6EECC5ADB222D /* PBXTargetDependency */ = {
+		4218CB72B70BB7CF196237310C9D50C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AKOCommonToolsKit;
 			target = DF832F384E15469DFE1F9F7E5152A7D3 /* AKOCommonToolsKit */;
-			targetProxy = C296423CFC121390C309DF5DE5563159 /* PBXContainerItemProxy */;
+			targetProxy = 245F73589ECB752C1F0B44D62F435AAF /* PBXContainerItemProxy */;
 		};
-		E6DFCFC3DA67A9E4AD6BDDF874450011 /* PBXTargetDependency */ = {
+		B361B22F1A51F0C8D00F3C76E8B6B347 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AKOCommonToolsKit_Example";
 			target = 7CEDAD2E1A1C18AB298ABD61975A3C99 /* Pods-AKOCommonToolsKit_Example */;
-			targetProxy = 4953DEB251F80CB366BA5142C1E7DCD9 /* PBXContainerItemProxy */;
+			targetProxy = 97ECE281951283B7C6351C4BB1653E08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,69 +592,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2F022D1E3231581DAFEEF504F5144ACC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0AC3CAC6DD9399487F4476287163FF /* AKOCommonToolsKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit.modulemap";
-				PRODUCT_MODULE_NAME = AKOCommonToolsKit;
-				PRODUCT_NAME = AKOCommonToolsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4517CA86ADB4481B55B4B9CA4DB24E5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD43A0310D86F7A862F014EB9B228FB /* AKOCommonToolsKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit.modulemap";
-				PRODUCT_MODULE_NAME = AKOCommonToolsKit;
-				PRODUCT_NAME = AKOCommonToolsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -702,6 +693,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		80E3595F1777D059D3C888FA1088C8AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E39FA07152D18C302BFA5B09B2E70E4 /* AKOCommonToolsKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit.modulemap";
+				PRODUCT_MODULE_NAME = AKOCommonToolsKit;
+				PRODUCT_NAME = AKOCommonToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88DBB308EF4D0343BF1097250CA9EFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0578869EEC9D0FA77E811105F75E5ADB /* AKOCommonToolsKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKOCommonToolsKit/AKOCommonToolsKit.modulemap";
+				PRODUCT_MODULE_NAME = AKOCommonToolsKit;
+				PRODUCT_NAME = AKOCommonToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		89328D61C403531E9121FE751FFF2CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -806,15 +860,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FC5759DFA96CAC9CB809327BCF6ED8C /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F022D1E3231581DAFEEF504F5144ACC /* Debug */,
-				4517CA86ADB4481B55B4B9CA4DB24E5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -829,6 +874,15 @@
 			buildConfigurations = (
 				20E2977C1CA9772210D7F41371F255A8 /* Debug */,
 				2D5B22E21893DAE528FB368884DAFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1EA41B70735949EA82D9F4DF5A57D70 /* Build configuration list for PBXNativeTarget "AKOCommonToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3595F1777D059D3C888FA1088C8AB /* Debug */,
+				88DBB308EF4D0343BF1097250CA9EFAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

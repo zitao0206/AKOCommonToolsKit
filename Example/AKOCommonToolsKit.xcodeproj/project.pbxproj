@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C3FA3B682C9EE09642D1E930 /* Pods_AKOCommonToolsKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA181F69D6A31FEB603C4771 /* Pods_AKOCommonToolsKit_Tests.framework */; };
+		D8E68B01295AE93C003CE6BB /* AKOSwiftObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E68B00295AE93C003CE6BB /* AKOSwiftObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B437340C190C3E3EA67AE40C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D8E68AFF295AE93C003CE6BB /* AKOCommonToolsKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AKOCommonToolsKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8E68B00295AE93C003CE6BB /* AKOSwiftObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKOSwiftObject.swift; sourceTree = "<group>"; };
 		DA181F69D6A31FEB603C4771 /* Pods_AKOCommonToolsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKOCommonToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EE22AD2D4F6F9BD608B10C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F980FFEBB5E371522D302C47 /* Pods_AKOCommonToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKOCommonToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* AKOAppDelegate.h */,
+				D8E68B00295AE93C003CE6BB /* AKOSwiftObject.swift */,
 				6003F59D195388D20070C39A /* AKOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* AKOViewController.h */,
@@ -151,6 +155,7 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				D8E68AFF295AE93C003CE6BB /* AKOCommonToolsKit_Example-Bridging-Header.h */,
 			);
 			name = "Example for AKOCommonToolsKit";
 			path = AKOCommonToolsKit;
@@ -247,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lizitao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 1400;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -366,6 +374,7 @@
 			files = (
 				6003F59E195388D20070C39A /* AKOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AKOViewController.m in Sources */,
+				D8E68B01295AE93C003CE6BB /* AKOSwiftObject.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,13 +503,18 @@
 			baseConfigurationReference = 5AF565E480E80658A9A00C1F /* Pods-AKOCommonToolsKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AKOCommonToolsKit/AKOCommonToolsKit-Prefix.pch";
 				INFOPLIST_FILE = "AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "AKOCommonToolsKit/AKOCommonToolsKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +524,17 @@
 			baseConfigurationReference = 6DC4BC644899B8215E683C0B /* Pods-AKOCommonToolsKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AKOCommonToolsKit/AKOCommonToolsKit-Prefix.pch";
 				INFOPLIST_FILE = "AKOCommonToolsKit/AKOCommonToolsKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "AKOCommonToolsKit/AKOCommonToolsKit_Example-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -525,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43CC24A0EE62BC09CA3A2639 /* Pods-AKOCommonToolsKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -550,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28AC4452EABE761253EEF624 /* Pods-AKOCommonToolsKit_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

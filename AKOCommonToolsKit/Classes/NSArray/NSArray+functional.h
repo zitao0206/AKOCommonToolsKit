@@ -13,7 +13,7 @@ typedef id (^AKOTransformBlock)(id obj);
 typedef BOOL (^AKOValidationBlock)(id obj);
 typedef id (^AKOAccumulationBlock)(id sum, id obj);
 
-@interface NSArray (functional1)
+@interface NSArray (functional)
 
 /**
  *  enumerate each object in array with index

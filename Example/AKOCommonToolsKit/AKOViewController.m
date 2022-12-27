@@ -7,6 +7,7 @@
 //
 
 #import "AKOViewController.h"
+#import "AKOCommonToolsKit_Example-Swift.h"
 
 @interface AKOViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+     
+    AKOSwiftObject *obj = [[AKOSwiftObject alloc]init];
+    [obj testCase];
 }
 
 - (void)didReceiveMemoryWarning

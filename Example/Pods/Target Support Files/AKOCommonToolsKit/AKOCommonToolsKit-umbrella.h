@@ -11,11 +11,14 @@
 #endif
 
 #import "AKOCommonToolsKit.h"
-#import "AKOCommonMacroDefine.h"
+#import "AKOCommonMacroDefines.h"
 #import "NSArray+functional.h"
+#import "NSBundle+AKOBundle.h"
 #import "NSString+Ext.h"
 #import "NSURL+Ext.h"
 #import "UIColor+Ext.h"
+#import "UIImage+AKOBundle.h"
+#import "UIImage+AKOKit.h"
 
 FOUNDATION_EXPORT double AKOCommonToolsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char AKOCommonToolsKitVersionString[];
