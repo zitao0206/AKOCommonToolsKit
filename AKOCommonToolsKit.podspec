@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Leon0206/AKOCommonToolsKit'
+  s.homepage         = 'https://github.com/zitao0206/AKOCommonToolsKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Leon0206' => '634376133@qq.com' }
-  s.source           = { :git => 'https://github.com/Leon0206/AKOCommonToolsKit.git', :tag => s.version.to_s }
+  s.author           = { 'zitao0206' => '634376133@qq.com' }
+  s.source           = { :git => 'https://github.com/zitao0206/AKOCommonToolsKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.pod_target_xcconfig = {
@@ -39,7 +39,10 @@ TODO: Add long description of the pod here.
   }
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'AKOCommonToolsKit/Classes/**/*'
+  s.source_files = [
+    'AKOCommonToolsKit.swift',
+    'Classes/**/*'
+  ]
   
   # s.resource_bundles = {
   #   'AKOCommonToolsKit' => ['AKOCommonToolsKit/Assets/*.png']
