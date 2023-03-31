@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = [
     'AKOCommonToolsKit.swift',
-    'Classes/**/*'
+    'AKOCommonToolsKit/Classes/**/*'
   ]
   
   # s.resource_bundles = {
