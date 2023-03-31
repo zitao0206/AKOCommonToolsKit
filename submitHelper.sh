@@ -59,7 +59,7 @@ podName=${packageDIR##*/}
 podspecFile=${podName}'.podspec'
 echo "podName ----->"${podName}
 echo 'COMMIT-podspec-FILE'
-sourceRepo='https://github.com/Leon0206/MDSpecs.git'
+sourceRepo='https://github.com/zitao0206/MDSpecs.git'
 sourceRepoName='MDSpecs'
 version=`git describe --abbrev=0 --tags 2>/dev/null`
 cd ..
