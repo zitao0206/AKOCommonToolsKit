@@ -1,15 +1,11 @@
 #!/bin/bash
 git status
-sleep 2
 
-echo "-------Begin-------"
 if [ ! $1 ]; then
-    read -p "Please input your Video commit message: " latestTag
+    read -p "Please input your tag: " input
 else
-    latestTag =$1
+    input =$1
 fi
 
-
-echo "Upgrade tag to："$latestTag
-git tag $latestTag
-git push -v -f origin refs/tags/$latestTag
+git tag $input
+git push -v -f origin refs/tags/$input
