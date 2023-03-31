@@ -12,6 +12,8 @@
 
 + (instancetype)generateUUID;
 
+- (id)obtainObj;
+
 - (NSData *)decodeHexString;
 
 - (NSString *)md5;

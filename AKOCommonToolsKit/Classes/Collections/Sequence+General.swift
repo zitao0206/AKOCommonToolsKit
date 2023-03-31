@@ -2,7 +2,7 @@
 //  Sequence+General.swift
 //  AKOCommonToolsKit
 //
-//  Created by lizitao on 2022/12/27.
+//  Created by zitao on 2022/12/27.
 //
 
 import Foundation

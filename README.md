@@ -1,6 +1,6 @@
 # AKOCommonToolsKit
 
-[![CI Status](https://img.shields.io/travis/lizitao/AKOCommonToolsKit.svg?style=flat)](https://travis-ci.org/lizitao/AKOCommonToolsKit)
+[![CI Status](https://img.shields.io/travis/zitao/AKOCommonToolsKit.svg?style=flat)](https://travis-ci.org/zitao/AKOCommonToolsKit)
 [![Version](https://img.shields.io/cocoapods/v/AKOCommonToolsKit.svg?style=flat)](https://cocoapods.org/pods/AKOCommonToolsKit)
 [![License](https://img.shields.io/cocoapods/l/AKOCommonToolsKit.svg?style=flat)](https://cocoapods.org/pods/AKOCommonToolsKit)
 [![Platform](https://img.shields.io/cocoapods/p/AKOCommonToolsKit.svg?style=flat)](https://cocoapods.org/pods/AKOCommonToolsKit)

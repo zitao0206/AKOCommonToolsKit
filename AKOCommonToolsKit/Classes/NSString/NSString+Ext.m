@@ -25,6 +25,12 @@ int __char2hex(unsigned char c) {
 
 @implementation NSString (Ext)
 
+- (id)obtainObj
+{
+    Class cls = NSClassFromString(self);
+    return [[cls alloc] init];
+}
+
 + (instancetype)generateUUID {
     CFUUIDRef uuidObj = CFUUIDCreate(nil);
     NSString *uuid = (__bridge_transfer NSString *)CFUUIDCreateString(nil, uuidObj);

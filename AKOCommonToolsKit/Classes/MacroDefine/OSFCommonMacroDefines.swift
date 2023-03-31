@@ -2,7 +2,7 @@
 //  OSFCommonMacroDefines.swift
 //  AKOCommonToolsKit
 //
-//  Created by lizitao on 2022/12/16.
+//  Created by zitao on 2022/12/16.
 //
 
 import Foundation
