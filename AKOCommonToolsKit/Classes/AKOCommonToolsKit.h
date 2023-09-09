@@ -13,5 +13,9 @@
 #import <AKOCommonToolsKit/NSString+Ext.h>
 #import <AKOCommonToolsKit/NSURL+Ext.h>
 #import <AKOCommonToolsKit/UIColor+Ext.h>
+#import <AKOCommonToolsKit/UIImage+AKOBundle.h>
+#import <AKOCommonToolsKit/NSBundle+AKOBundle.h>
+#import <AKOCommonToolsKit/UIView+EasyLayout.h>
+#import <AKOCommonToolsKit/UIImage+AKOKit.h>
 
 #endif /* AKOCommonToolsKit_h */
